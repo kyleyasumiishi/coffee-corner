@@ -7,7 +7,48 @@
   <meta name="description" content="Kyle's Coffee Corner Product Landing Page">
   <meta name="keywords" content="FreeCodeCamp, Coffee, Corner">
   <link href="https://fonts.googleapis.com/css?family=Jaldi:700" rel="stylesheet">
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
   <!--FreeCodeCamp Test Suite-->
   <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects- fcc/master/build/bundle.js"></script>
   </head>
+
+  <body>
+
+    <header id="header">
+      <img id="header-img" src="img/coffee-logo.png" alt="Black   coffee mug logo for Kyle's Coffee Corner">
+      <h1>Kyle's Coffee Corner</h1>
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href="#about">About</a></li>
+          <li class="nav-link"><a href="#products">Products</a></li>
+          <li class="nav-link"><a href="#signup">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    
+    <section id="about">
+      <h2>About</h2>
+      <iframe id="video" width="445" height="250" src="https://www.youtube.com/embed/4YOwEqGykDM?rel=0" frameborder="1" allow="encrypted-media" allowfullscreen></iframe>
+    </section>
+
+    <section id="products">
+      <h2>Kyle's Favorite Products</h2>
+    </section>
+
+    <section id="signup">
+        <h2>Sign up to join the Caffeination Nation!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label id="email-label" for="email">Email:</label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+            <br>
+            <button id="submit" type="submit">Sign Up!</button>
+        </form>
+    </section>
+
+    </main>
+
+
+  </body>
+</html>
