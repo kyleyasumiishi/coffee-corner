@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     flex-wrap: nowrap;
     position: sticky;
-    top: 0;
+    top: 10px;
 }
 .header-div {
     display: inline;
