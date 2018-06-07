@@ -1,6 +1,6 @@
-img {
-    height: 75px;
-    width: 75px;
+header img {
+    height: 45px;
+    width: 45px;
 }
 header {
     display: flex;
@@ -21,7 +21,19 @@ header li {
     text-align: center;
     float: left;
 }
-
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1% 1%;
+}
+.items {
+    text-align: center;
+}
+.items a img {
+    height: 290px;
+}
 
 
 
