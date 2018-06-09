@@ -1,14 +1,34 @@
+:root {
+    /* Border */
+    --border-width: 5px;
+    --border-style: solid;
+    --border-color: black;
+
+    /* Color Theme */
+    --red: #ff0000;
+    --red-darker: #d61a1a;
+    --red-darkest: #a50000;
+    --yellow: #FCEF2E;
+    --yellow-lightest: #FEF3AC;
+}
+body {
+    /* background-color: var(--red-darkest); */
+    margin: 0px 0px 2% 0px;
+}
 header img {
     height: 45px;
     width: 45px;
 }
 header {
+    background-color: gray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
     position: sticky;
-    top: 10px;
+    top: 0px;
+    padding-top: 2px;
+    padding-left: 2px;
 }
 .header-div {
     display: inline;
@@ -20,6 +40,22 @@ header li {
     width: 75px;
     text-align: center;
     float: left;
+}
+main {
+    width: 85%;
+    margin: auto;
+    margin-top: 1%;
+    background-color: white;
+    padding: 3%;
+    box-shadow: 0px 2px 9px 2px var(--red-darkest);
+}
+h1, h2 {
+    text-align: center;
+}
+iframe {
+    display: block;
+    margin: auto;
+    border: var(--border-width) var(--border-style) var(--border-color);
 }
 .container {
     width: 100%;
@@ -33,6 +69,8 @@ header li {
 }
 .items a img {
     height: 290px;
+    width: 193px;
+    border: var(--border-width) var(--border-style) var(--border-color);
 }
 
 
