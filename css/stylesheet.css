@@ -69,9 +69,11 @@ iframe {
 }
 .items {
     text-align: center;
+    -webkit-backface-visibility: hidden;
 }
 .items:hover {
     transform: scale(0.85);
+    -webkit-backface-visibility: hidden;
 }
 .items a img {
     height: 290px;
