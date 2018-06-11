@@ -1,4 +1,4 @@
-# Product Landing Page
+# Kyle's Coffee Corner
 
 Welcome to <a href="https://kyleyasumiishi.github.io/coffee-corner/index.html">Kyle's Coffee Corner</a>, where caffeination is all the sensation!
 
