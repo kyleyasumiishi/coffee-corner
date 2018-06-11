@@ -1,6 +1,6 @@
 # Product Landing Page
 
-Welcome to <a href="">Kyle's Coffee Corner</a>, where caffeination is all the sensation!
+Welcome to <a href="https://kyleyasumiishi.github.io/coffee-corner/index.html">Kyle's Coffee Corner</a>, where caffeination is all the sensation!
 
 ## About
 
@@ -32,8 +32,14 @@ Click here for my <a href="">submitted project</a> on Codepen.
 
 My goal for each freeCodeCamp project is simply to learn about and practice using new web development concepts and techniques.
 
-Here's are new concepts I learned by building this project:
+Here's are new concepts I learned and practiced by building this project:
 
+- HTML <code>nav</code> element
+- Link to internal sections of a page with <code>anchor</code> elements
+- Embedding a YouTube video in a webpage witih the HTML <code>iframe</code> element
+- Create a CSS Grid and add columns with <code>grid-template-columns</code> and rows with <code>grid-template-rows</code>
+- Create a CSS3 Media Query to change the presentation of content based on different viewport sizes
+- Add a stickily positioned navbar element combined with the <code>top</code> CSS property to make the navbar always appear at the top of the viewport
 
 ## Technologies Used
 
