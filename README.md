@@ -2,6 +2,8 @@
 
 Welcome to <a href="https://kyleyasumiishi.github.io/coffee-corner/index.html">Kyle's Coffee Corner</a>, where caffeination is all the sensation!
 
+![Kyle's Coffee Corner Screenshot](https://gdurl.com/Cijn)
+
 ## About
 
 I built this product landing page as one of freeCodeCamp's Responsive Web Design Projects.
