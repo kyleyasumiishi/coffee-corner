@@ -8,8 +8,6 @@ I built this product landing page as one of freeCodeCamp's Responsive Web Design
 
 freeCodeCamp is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, Medium publications and local organizations that intend to make learning web development accessible to anyone.
 
-Click here for my <a href="">submitted project</a> on Codepen.
-
 #### Product Landing Page User Stories
 
 - User Story #1: My product landing page should have a header element with a corresponding id="header".
